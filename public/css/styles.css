@@ -1,0 +1,55 @@
+/* Header Styles */
+.navbar-brand {
+    font-weight: bold;
+}
+  
+.navbar-nav {
+    margin-left: auto; /* Align navigation items to the left */
+}
+
+/* Hero Section Styles */
+#home {
+    background-image: url('/images/Pool-Water.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+#home h1 {
+    color: #6527BE; /* White color for the heading */
+    font-size: 4rem;
+    font-weight: bold;
+}
+  
+#home p {
+    color: #100720; /* White color for the paragraph */
+    font-size: 1.5rem;
+}
+  
+#home .btn-primary {
+    margin-top: 20px;
+}
+
+  
+/* Sticky Footer Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+main {
+    flex: 1;
+}
+  
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+  

@@ -1,0 +1,25 @@
+{
+  "name": "swim-aquatics-website",
+  "version": "1.0.0",
+  "description": "Swim Aquatics Website is a comprehensive web application for a swim school or aquatics center, offering indoor and outdoor swimming classes and programs for children. The website provides information about the programs, instructors, and philosophy of the swim school. It aims to create a safe and enjoyable environment for children to learn and develop essential swimming skills. The website incorporates EJS templating, Bootstrap framework, and custom JavaScript code for interactive functionality. It also includes a package.json file to manage project dependencies and facilitate easy installation and setup.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khector24/Swim-Aquatics-Website.git"
+  },
+  "author": "Kenny Hector",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khector24/Swim-Aquatics-Website/issues"
+  },
+  "homepage": "https://github.com/khector24/Swim-Aquatics-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}
