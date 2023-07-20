@@ -1,5 +1,147 @@
 <%- include('partials/header.ejs') %>
-<main>
-    <h1>Here are all the most asked questions.</h1>
+<main class="container mt-5">
+    <h1 class="text-center">Frequently Asked Questions</h1>
+    <div class="accordion mt-4 mb-5" id="faqAccordion">
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                    Question 1: What are the age requirements for swimming classes?
+                </button>
+            </h2>
+            <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: We offer swimming classes for children aged 5 months and up. Our programs are tailored to different age groups and skill levels, ensuring a safe and enjoyable learning experience for all.
+                </div>
+            </div>
+        </div>
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                    Question 2: How qualified are your swim instructors?
+                </button>
+            </h2>
+            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: Our swim instructors are highly qualified and experienced. They undergo extensive training and certification to ensure the highest standards of teaching and safety for all our students.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                    Question 3: What makes Splash Zone Aquatics different from other swim schools?
+                </button>
+            </h2>
+            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: At Splash Zone Aquatics, we pride ourselves on creating an inviting and safe environment for kids to learn swimming. Our swim instructors offer constant encouragement and fun-filled games, fostering a relaxed and enjoyable atmosphere for effective learning. We prioritize the overall well-being and progress of each child, making us stand out among other swim schools.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                    Question 4: What's your location?
+                </button>
+            </h2>
+            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: Since we're a very small team, we don't have a set location. We rent places, such as the local YMCA and similar facilities, meet in public pools, or occasionally use customers' own pool. This flexibility allows us to bring our swimming classes to various locations for your convenience.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                    Question 5: What area do you operate in?
+                </button>
+            </h2>
+            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: We primarily operate in the NY, NJ area, serving Rockland County in NY and Bergen County in NJ. As a small team, our coverage area is limited, but we are always willing to consider new locations. If you have a place in mind and are unsure if we can service the area, feel free to contact us, and we'll be happy to provide more information.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6">
+                    Question 6: Your prices/rates?
+                </button>
+            </h2>
+            <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: Our prices and rates depend on the chosen program, the number of hours needed, and other factors. We offer a wide variety of swim programs tailored to different ages and skill levels. For more detailed pricing information and to get a better idea of the cost, please contact us, and we'll be happy to provide you with the necessary details.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading7">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse7" aria-expanded="false" aria-controls="faqCollapse7">
+                    Question 7: What swimming programs do you offer?
+                </button>
+            </h2>
+            <div id="faqCollapse7" class="accordion-collapse collapse" aria-labelledby="faqHeading7" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: We offer a wide variety of swimming programs for children of different ages and skill levels. Our programs include beginner classes for young children, intermediate and advanced lessons, water safety courses, and even special programs for competitive swimmers. Each program is designed to cater to specific needs and goals, ensuring a comprehensive learning experience for all participants.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 8 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading8">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse8" aria-expanded="false" aria-controls="faqCollapse8">
+                    Question 8: How can I enroll my child in swimming classes?
+                </button>
+            </h2>
+            <div id="faqCollapse8" class="accordion-collapse collapse" aria-labelledby="faqHeading8" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: Enrolling your child in swimming classes is easy! Simply visit our website or contact us directly to inquire about available classes and schedules. We will guide you through the registration process and help you choose the most suitable program for your child's age and skill level. Our team is always ready to assist you in providing a smooth enrollment experience.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 9 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading9">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse9" aria-expanded="false" aria-controls="faqCollapse9">
+                    Question 9: What safety measures do you have in place during lessons?
+                </button>
+            </h2>
+            <div id="faqCollapse9" class="accordion-collapse collapse" aria-labelledby="faqHeading9" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: Safety is our top priority during swimming lessons. Our instructors are trained in lifeguarding and first aid, and we ensure constant supervision during all sessions. We maintain small class sizes to provide personalized attention and ensure each child's safety in the water. Additionally, we follow all relevant safety guidelines and protocols to create a secure and enjoyable environment for all participants.
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ 10 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeading10">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse10" aria-expanded="false" aria-controls="faqCollapse10">
+                    Question 10: What should my child bring to swimming classes?
+                </button>
+            </h2>
+            <div id="faqCollapse10" class="accordion-collapse collapse" aria-labelledby="faqHeading10" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Answer: For swimming classes, we recommend that your child brings the following items: a swimsuit (one-piece for girls), swim cap, goggles, and a towel. Additionally, please make sure your child wears sunscreen before coming to the class, especially for outdoor sessions. It's also a good idea to have a change of clothes for after the lesson. We strive to create a positive and comfortable experience for all students, and having the appropriate swim gear ensures a smooth and enjoyable swimming lesson.
+                </div>
+            </div>
+        </div>
+
+    </div>
 </main>
+
 <%- include('partials/footer.ejs') %>
