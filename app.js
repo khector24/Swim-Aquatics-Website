@@ -26,6 +26,14 @@ app.get("/contact", function(req, res){
     res.render("contact")
 });
 
+app.get("/reviews", function(req, res){
+    res.render("reviews")
+});
+
+app.get("/faq-page", function(req, res){
+    res.render("faq-page")
+});
+
 
 app.listen(3000, function() {
     console.log("Server started on port 3000");
