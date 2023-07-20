@@ -1,0 +1,6 @@
+/* Custom CSS for equal height cards */
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
