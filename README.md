@@ -18,11 +18,7 @@ To run the Swim Aquatics Website on your local machine, follow these steps:
    ```bash
    git clone https://github.com/khector24/Swim-Aquatics-Website.git
 
-Clone the GitHub repository:
-bash
-Copy code
-git clone https://github.com/khector24/Swim-Aquatics-Website.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 bash
 Copy code
 cd Swim-Aquatics-Website
