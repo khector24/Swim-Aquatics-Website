@@ -55,6 +55,6 @@ If you encounter any problems or have questions about the website, please check 
 For more information or inquiries, you can contact the author:
 
 - Name: Kenny Hector
-- Email: kenny.hector@example.com
+- Email: kennyhector24@gmail.com
 
 Thank you for using the Swim Aquatics Website! We hope your experience is enjoyable and beneficial for your child's swimming journey. Happy swimming!
