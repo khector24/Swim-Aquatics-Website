@@ -14,6 +14,10 @@ Swim Aquatics Website is a comprehensive web application for a swim school or aq
 ## Installation
 To run the Swim Aquatics Website on your local machine, follow these steps:
 
+1. Clone the GitHub repository:
+   ```bash
+   git clone https://github.com/khector24/Swim-Aquatics-Website.git
+
 Clone the GitHub repository:
 bash
 Copy code
