@@ -19,17 +19,17 @@ To run the Swim Aquatics Website on your local machine, follow these steps:
    git clone https://github.com/khector24/Swim-Aquatics-Website.git
 
 2. Navigate to the project directory:
-bash
-Copy code
-cd Swim-Aquatics-Website
-Install the project dependencies:
-bash
-Copy code
-npm install
-Start the application:
-bash
-Copy code
-npm start
+    ```bash 
+    cd Swim-Aquatics-Website
+
+3. Install the project dependencies:
+    ```bash 
+    npm install
+
+4. Start the application:
+    ```bash
+    npm start
+    
 Open your web browser and go to http://localhost:3000 to access the website.
 
 
